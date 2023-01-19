@@ -1,0 +1,20 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "noEmit": false,
+        "baseUrl": ".",
+        "paths": {
+            "@adobe/aem-spa-component-mapping": [ "./" ],
+            "@adobe/aem-spa-component-mapping/*": [ "./*" ]
+        },
+        "composite": true,
+        "module": "es2015",
+        "target": "esnext",
+        "importHelpers": true,
+        "removeComments": false,
+        "declaration": true,
+        "declarationMap": true,
+        "declarationDir": "../dist",
+        "emitDeclarationOnly": true
+    }
+}
