@@ -13,7 +13,7 @@
   "repository": "github:adobe/aem-spa-component-mapping",
   "homepage": "https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-reference-materials.html",
   "bugs": {
-    "url": "https://github.com/adobe/aem-spa-component-mapping/issues"
+    "url": "https://github.com/abhishekdixitadobe/aem-spa-component-mapping"
   },
   "engines": {
     "npm": "7.24.2",
@@ -23,7 +23,7 @@
   "types": "dist/types.d.ts",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && webpack",
     "start": "next start",
     "lint": "next lint"
   },
@@ -33,6 +33,7 @@
     "@semantic-release/git": "^9.0.0",
     "@semantic-release/github": "^7.2.1",
     "@types/jest": "^26.0.22",
+    "@types/node": "^18.11.18",
     "@types/react": "18.0.27",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
@@ -73,11 +74,11 @@
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
-   "@testing-library/react": "^13.3.0",
-   "@testing-library/user-event": "^13.5.0",
-   "next": "^12.2.0",
-   "react": "^18.2.0",
-   "react-dom": "^18.2.0",
-   "web-vitals": "^2.1.4"
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "next": "^12.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "web-vitals": "^2.1.4"
   }
 }

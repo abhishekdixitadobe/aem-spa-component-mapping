@@ -19,7 +19,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2018",
-    "noEmit": true,
+    "noEmit": false,
     "jsx": "preserve"
   },
   "include": [
